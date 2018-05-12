@@ -1,0 +1,40 @@
+/* responsive design */
+@media screen and (max-width: 769px) {
+    .container, .box {
+        margin: 0px;
+    }
+    .field.is-grouped {
+        flex-direction: column;
+    }
+    .field.is-grouped .control {
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .field.is-grouped .button {
+        margin-top: 10px;
+    }
+}
+
+/* bigger checkbox */
+input[type=checkbox] {
+    transform: scale(2);
+}
+a.box.incomplete-task:hover, a.box.complete-task:hover {
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #c0c0c0 !important;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #c0c0c0 !important;
+
+}
+.incomplete-task {
+    color: #9F6000 !important;
+    background-color: #FEEFB3 !important;
+}
+.complete-task {
+    color: #4F8A10 !important;
+    background-color: #DFF2BF !important;
+}
+.delete-item-icon {
+    color: inherit !important;
+}
+.delete-item-icon:hover {
+    color:#575757 !important; 
+}
